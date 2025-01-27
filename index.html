@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+ <html lang="pt">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Repositório de Programadores</title>
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ <header>
+ <div class="container">
+ <img src="assets/logo.png" alt="Logo" class="logo">
+
+ <h1>Repositório de Programadores</h1>
+ <p>Guarde seus projetos em diversas linguagens de programação</p>
+ </div>
+ <nav>
+ <ul>
+ <li><a href="#python">Python</a></li>
+ <li><a href="#java">Java</a></li>
+ <li><a href="#javascript">JavaScript</a></li>
+<li><a href="#csharp">C#</a></li>
+ </ul>
+ </nav>
+ </header>
+ <section id="search">
+ <div class="container">
+ <input type="text" id="searchInput" placeholder="Pesquise por
+ repositórios..." onkeyup="searchRepos()">
+ </div>
+ </section>
+ <section id="python" class="repositories">
+ <div class="container">
+ <h2>Repositórios Python</h2>
+ <ul id="python-list" class="repo-list">
+ <!-- Repositórios Python serão inseridos aqui-->
+ </ul>
+ <button class="addRepo" onclick="addRepo('python')">Adicionar
+ Repositório</button>
+ </div>
+ </section>
+ <section id="java" class="repositories">
+ <div class="container">
+ <h2>Repositórios Java</h2>
+ <ul id="java-list" class="repo-list">
+
+ <!-- Repositórios Java serão inseridos aqui-->
+ </ul>
+ <button
+ Repositório</button>
+ </div>
+ </section>
+ class="addRepo"
+ onclick="addRepo('java')">Adicionar
+ <section id="javascript" class="repositories">
+ <div class="container">
+ <h2>Repositórios JavaScript</h2>
+ <ul id="javascript-list" class="repo-list">
+ <!-- Repositórios JavaScript serão inseridos aqui-->
+ </ul>
+ <button class="addRepo" onclick="addRepo('javascript')">Adicionar
+ Repositório</button>
+ </div>
+ </section>
+ <section id="csharp" class="repositories">
+ <div class="container">
+ <h2>Repositórios C#</h2>
+ <ul id="csharp-list" class="repo-list">
+ <!-- Repositórios C# serão inseridos aqui-->
+ </ul>
+ <button class="addRepo" onclick="addRepo('csharp')">Adicionar
+ Repositório</button>
+ </div>
+ </section>
+ <footer>
+ <div class="container">
+ <p>&copy; 2023 Repositório de Programadores. Todos os direitos
+ reservados.</p>
+ </div>
+ </footer>
+
+ <script src="script.js"></script>
+ </body>
+ </html>
